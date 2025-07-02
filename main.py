@@ -7,7 +7,7 @@ from utils import plot_combined_results
 if __name__ == "__main__":
 
      # Directory where Excel files are saved
-    input_dir = '/Users/jihopark/Desktop/Jiho_IS/Lung_Epithelial_Simulation/EMT_Alon_Model'  # Current directory
+    input_dir = '/Users/jihopark/Desktop/Git/EMT_Alon_Model'  # Current directory
 
     try:
         for age in ages:
