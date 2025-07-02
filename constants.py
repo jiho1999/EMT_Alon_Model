@@ -20,7 +20,8 @@ death_probability = 0.0003
 senescence_rate = 0.00000069
 removal_rate_ß = 0.0125
 # age of 0, 0.5, 1, 1.5, 2, and 2.5 years old mice
-ages = [0, 4380, 8760, 13140, 17520, 21900]
+# ages = [0, 4380, 8760, 13140, 17520, 21900]
+ages = [0]
 # ages = [21900]
 # Probability of mesenchymal cells turn into epithelial cell
 M_to_E_probability = 0.1
@@ -30,7 +31,7 @@ grid_size_x = 100
 grid_size_y = 100
 
 # Number of steps
-NUM_STEPS = 300
+NUM_STEPS = 30
 
 """
 1. Senescent cell accumulation
